@@ -29,7 +29,7 @@ const UserProfilePage = () => {
               return;
             }
 
-            const response = await fetch('https://zcode-fullstack.onrender.com/user/me', {
+            const response = await fetch('https://zcode-fullstack-0m6q.onrender.com/user/me', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
@@ -80,7 +80,7 @@ const UserProfilePage = () => {
           formData.append('profilePic', selectedImage);
         }
 
-        const response = await fetch('https://zcode-fullstack.onrender.com/user/update', {
+        const response = await fetch('https://zcode-fullstack-0m6q.onrender.com/user/update', {
           method: 'PUT',
           headers: {
             Authorization: `Bearer ${token}`,
@@ -114,7 +114,7 @@ const UserProfilePage = () => {
             return;
           }
 
-          const response = await fetch('https://zcode-fullstack.onrender.com/problems/', {
+          const response = await fetch('https://zcode-fullstack-0m6q.onrender.com/problems/', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
@@ -154,7 +154,7 @@ useEffect(() => {
 
           const localhandle = localStorage.getItem('handle');
 
-          const response = await fetch('https://zcode-fullstack.onrender.com/solutions/byhandle', {
+          const response = await fetch('https://zcode-fullstack-0m6q.onrender.com/solutions/byhandle', {
             method: 'POST',
             headers: {
               'Content-Type': 'application/json',
