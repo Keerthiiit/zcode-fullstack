@@ -32,7 +32,7 @@ const Otheruserpage = () => {
                 handle: id
             };
 
-            const response = await fetch(`https://zcode-fullstack.onrender.com/user/getother`, {
+            const response = await fetch(`https://zcode-fullstack-0m6q.onrender.com/user/getother`, {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
