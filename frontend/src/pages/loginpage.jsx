@@ -21,7 +21,7 @@ const LoginPage = () => {
             return handleError('Email and Password are required')
         }
         try {
-            const url = `https://zcode-fullstack.onrender.com/auth/login`;
+            const url = `https://zcode-fullstack-0m6q.onrender.com/auth/login`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
