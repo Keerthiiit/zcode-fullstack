@@ -26,7 +26,7 @@ const RegisterPage = () => {
             return handleError(' Handle name, Full name, Email and Password are all required')
         }
         try {
-            const url = `https://zcode-fullstack.onrender.com/auth/signup`;
+            const url = `https://zcode-fullstack-0m6q.onrender.com/auth/signup`;
             const response = await fetch(url, {
                 method: "POST",
                 headers: {
