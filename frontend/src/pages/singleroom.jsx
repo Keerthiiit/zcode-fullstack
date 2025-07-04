@@ -5,7 +5,7 @@ import { useNavigate, useParams } from 'react-router-dom';
 import '../styles/singleroom.css';
 import { io } from 'socket.io-client';
 
-const socket = io('https://zcode-fullstack.onrender.com'); // Very important for rooms
+const socket = io('https://zcode-fullstack-0m6q.onrender.com'); // Very important for rooms
 
 
 const ChatRoom = () => {
@@ -73,7 +73,7 @@ const ChatRoom = () => {
               return;
             }
 
-            const response = await fetch('https://zcode-fullstack.onrender.com/messages', {
+            const response = await fetch('https://zcode-fullstack-0m6q.onrender.com/messages', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
