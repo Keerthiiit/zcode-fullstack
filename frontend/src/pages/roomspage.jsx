@@ -24,7 +24,7 @@ const RoomsPage = () => {
               return;
             }
 
-            const response = await fetch('https://zcode-fullstack.onrender.com/rooms/getrooms', {
+            const response = await fetch('https://zcode-fullstack-0m6q.onrender.com/rooms/getrooms', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
