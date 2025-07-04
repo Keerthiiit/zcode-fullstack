@@ -33,7 +33,7 @@ const ProblemPage = () => {
               return;
             }
 
-            const response = await fetch('https://zcode-fullstack.onrender.com/problems/singleproblem', {
+            const response = await fetch('https://zcode-fullstack-0m6q.onrender.com/problems/singleproblem', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
@@ -94,7 +94,7 @@ const ProblemPage = () => {
           : [...bookmarks, problem.pid];
 
 
-        const updateRes = await fetch('https://zcode-fullstack.onrender.com/user/setbookmark', {
+        const updateRes = await fetch('https://zcode-fullstack-0m6q.onrender.com/user/setbookmark', {
           method: 'PUT',
           headers: {
             'Content-Type': 'application/json',
@@ -141,7 +141,7 @@ const handleSubmitSolution = async () => {
     };
 
       try {
-        const res = await fetch('https://zcode-fullstack.onrender.com/solutions/create', {
+        const res = await fetch('https://zcode-fullstack-0m6q.onrender.com/solutions/create', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
           body: JSON.stringify(payload)
