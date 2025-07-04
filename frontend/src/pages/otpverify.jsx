@@ -116,7 +116,7 @@ const OTPVerify = () => {
     }
 
     try {
-            const url = `https://zcode-fullstack.onrender.com/auth/resendotp`;
+            const url = `https://zcode-fullstack-0m6q.onrender.com/auth/resendotp`;
 
             const response = await fetch(url, {
                 method: "POST",
