@@ -62,7 +62,7 @@ const OTPVerify = () => {
     setError('');
 
     try {
-            const url = `https://zcode-fullstack.onrender.com/auth/otpverify`;
+            const url = `https://zcode-fullstack-0m6q.onrender.com/auth/otpverify`;
 
             const response = await fetch(url, {
                 method: "POST",
