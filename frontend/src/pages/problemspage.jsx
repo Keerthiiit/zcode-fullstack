@@ -27,7 +27,7 @@ const ProblemsPage = () => {
               return;
             }
 
-            const response = await fetch('https://zcode-fullstack.onrender.com/problems', {
+            const response = await fetch('https://zcode-fullstack-0m6q.onrender.com/problems', {
               method: 'POST',
               headers: {
                 'Content-Type': 'application/json',
