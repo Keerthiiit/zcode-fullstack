@@ -19,7 +19,7 @@ const ContestPage = () => {
     const fetchContests = async () => {
       try {
 
-        const response = await fetch('https://zcode-fullstack.onrender.com/contests');
+        const response = await fetch('https://zcode-fullstack-0m6q.onrender.com/contests');
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
         }
